@@ -30,11 +30,28 @@ public class _00_ArrayCheatSheet {
 			 }
 			 System.out.println(array[i]);
 		}
+		int max = array[0];
+		for(int i = 1; i < array.length;i++)
+		{
+			if(array[i] > max)
+			{
+				max = array[i];
+			}
+		}
+		
+		System.out.println("The Given Array Element is:");
+		for(int i = 0; i < array.length;i++)
+		{
+			System.out.println(array[i]);
+		}
+		
+	
 		  
 		//8. without printing the entire array, print only the smallest number in the array
-		 System.out.println("Smallest element present in given array: " + min);  
+		 System.out.println("Smallest element present in given array:"  + min);  
 		//9 print the entire array to see if step 8 was correct
 	     
 		//10. print the largest number in the array.
+			 System.out.println("Largest element present in given array:"   + max);
 	}
 }
