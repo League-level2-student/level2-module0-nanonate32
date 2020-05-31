@@ -21,7 +21,7 @@ public class _01_RobotRace {
 				robots.move(randy.nextInt(50));
 			}
 		// a random amount less than 50.
-          
+          randy =(-50)
 		// 6. use a while loop to repeat step 5 until a robot has reached the top of the
 		// screen.
 
