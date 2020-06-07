@@ -21,15 +21,16 @@ public class _01_RobotRace {
 				robots.move(randy.nextInt(50));
 			}
 		// a random amount less than 50.
-          randy =(-50)
+          randy =>(-50)
 		// 6. use a while loop to repeat step 5 until a robot has reached the top of the
 		// screen.
+        		  while(robot.run(robots.length))
 
 		// 7. declare that robot the winner and throw it a party!
           if(Robots.equals cross)
         	  Robot.throwParty(Robot.throwParty)
 		// 8. try different races with different amounts of robots.
-
+              race.start(roboots)
 		// 9. make the robots race around a circular track.
 	}
 }
