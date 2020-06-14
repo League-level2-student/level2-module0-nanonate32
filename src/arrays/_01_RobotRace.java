@@ -17,7 +17,7 @@ public class _01_RobotRace {
                robots.setPosition(100,100);
 		// 5. use another for loop to iterate through the array and make each robot move
                Random randy = new Random();
-               for (int i = 0; i < robots.length; i++) {
+               for (int i = 0; i < robots.length; i++) {d
 				robots.move(randy.nextInt(50));
 			}
 		// a random amount less than 50.
@@ -27,10 +27,11 @@ public class _01_RobotRace {
         		  while(robot.run(robots.length))
 
 		// 7. declare that robot the winner and throw it a party!
-          if(Robots.equals cross)
+          if(Robots.equals crossFinishLine)
         	  Robot.throwParty(Robot.throwParty)
 		// 8. try different races with different amounts of robots.
               race.start(roboots)
 		// 9. make the robots race around a circular track.
-	}
+	}         track.circle(robots(3.circle(50,50,50));
+	robot.moveForward(5,3,3);
 }
