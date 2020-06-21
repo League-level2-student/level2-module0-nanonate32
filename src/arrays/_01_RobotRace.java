@@ -2,7 +2,7 @@ package arrays;
 
 import java.awt.Robot;
 import java.util.Random;
-ThrowParty throwPartyt = new 
+ThrowParty throwParty = new 
 public class _01_RobotRace {
 	// 1. make a main method
 	public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class _01_RobotRace {
     	     System.out.println(robots[i]);
     	}
 		// 4. make each robo  t start at the bottom of the screen, side by side, facing up
-               robots.setPosition(100,100);
+               robots.setPosition(100,100,100,100);
 		// 5. use another for loop to iterate through the array and make each robot move
                Random randy = new Random();
                for (int i = 0; i < robots.length; i++) {d
@@ -27,11 +27,14 @@ public class _01_RobotRace {
         		  while(robot.run(robots.length))
 
 		// 7. declare that robot the winner and throw it a party!
-          if(Robots.equals crossFinishLine)
-        	  Robot.throwParty(Robot.throwParty)
+          if(Robots.equals( crossFinishLine)) {
+        	   Robot.throwParty(Robot.throwParty)
+          }
+        	 
 		// 8. try different races with different amounts of robots.
               race.start(roboots)
 		// 9. make the robots race around a circular track.
-	}         track.circle(robots(3.circle(50,50,50));
+	}         track.circle(robots(3.circle(50,100,50));
+	robot.race(100,100)
 	robot.moveForward(5,3,3);
 }
