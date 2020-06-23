@@ -1,7 +1,10 @@
 package arrays;
 
 
+import java.text.Format;
 import java.util.Random;
+
+import javax.swing.JOptionPane;
 
 import org.jointheleague.graphical.robot.Robot;
 
@@ -23,11 +26,15 @@ boolean CrossFinishLine = false;
                Random randy = new Random();
                
             	     while(CrossFinishLine == false){
-        			 
+        			
+        				 
+        			 }
         			  for (int i = 0; i < robots.length; i++) {
             	   robots[i].move(randy.nextInt(50));
+            	    if(robots[i] == position(100,100)) {
+            	    	CrossFinishLine = true;
 			}
-            	     }     
+            	     }  
 		// 5. a random amount less than 50.
           
 		// 6. use a while loop to repeat step 5 until a robot has reached the top of the
@@ -36,12 +43,13 @@ boolean CrossFinishLine = false;
         		 
 
 		// 7. declare that robot the winner and throw it a party!
-        
-        	  
-          }
-        	 
+                   if(CrossFinishLine == true)
+        	   JOptionPane.showInputDialog("You are the Winner!");
+                  	 
 		// 8. try different races with different amounts of robots.
               
 		// 9. make the robots race around a circular track.
-	}        
+	}
+	}   
+	
 
